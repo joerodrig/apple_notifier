@@ -4,7 +4,7 @@ Install Dependencies:
   * Install dependencies with `mix deps.get`
 
 Run the script:
-  * mix check_apple_store -url <APPLE_PRODUCT_URL>
+  * `mix check_apple_store -url <APPLE_PRODUCT_URL>`
 
 Continuously run script:
   `while sleep <SECONDS_TO_WAIT>; do mix check_apple_store -url <APPLE_PRODUCT_URL>; done`
